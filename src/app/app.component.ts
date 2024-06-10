@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { FaceInfoComponent } from './face-info/face-info.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [
+    FaceInfoComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent {
-  title = 'copalfront';
-}
+export class AppComponent {}
